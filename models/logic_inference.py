@@ -3,7 +3,7 @@ import os
 from tqdm import tqdm
 from program_parser import PykeInterpreter, FOLogicInterpreter, CSPInterpreter, LogicProgram
 import argparse
-from pyke import knowledge_engine
+# from pyke import knowledge_engine
 import random
 import re
 from self_debug import SelfDebugger

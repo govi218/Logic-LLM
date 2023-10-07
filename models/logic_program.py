@@ -5,10 +5,10 @@ import os
 from tqdm import tqdm
 from collections import OrderedDict
 from typing import Dict, List, Tuple
-from utils import OpenAIModel
+from .utils import OpenAIModel
 import argparse
-from prompt_library import few_shot_protoqa_prompt, few_shot_proofwriter_prompt
-from prompt_library import few_shot_folio_prompt_fol, few_shot_logical_deduction_prompt
+from .prompt_library import few_shot_protoqa_prompt, few_shot_proofwriter_prompt
+from .prompt_library import few_shot_folio_prompt_fol, few_shot_logical_deduction_prompt
 
 class LogicProgramGenerator:
     def __init__(self, args):
